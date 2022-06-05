@@ -26,7 +26,12 @@ For User documentation and requirements pls consult to section 4.
 7. Assumptions and Dependencies:
 It is assumed that the hardware designed will work correctly with the third-party operating system and the developed software.
 
-
+8. Use-Case Diagram
 
 ![image](https://user-images.githubusercontent.com/86345218/172049832-03bc568f-6314-4cdd-9bb8-186ea3017709.png)
+
+9. Class Case Modelling
+
+![Picture1](https://user-images.githubusercontent.com/86345218/172050034-8c7c5113-7b99-47df-abb5-732a6358a0f9.png)
+
 
