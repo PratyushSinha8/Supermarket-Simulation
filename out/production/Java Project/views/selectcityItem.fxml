@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="278.0" prefWidth="190.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TableItem">
+   <children>
+      <VBox layoutX="10.0" layoutY="-1.0" prefHeight="268.0" prefWidth="170.0">
+         <children>
+            <Label fx:id="tableLabel" text="MUMBAI">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="img" fitHeight="204.0" fitWidth="170.0">
+               <image>
+                  <Image url="@../buttonImg/selectcity1%20(2).PNG" />
+               </image>
+            </ImageView>
+            <Button fx:id="mumbai" mnemonicParsing="false" onAction="#homepage" prefHeight="30.0" prefWidth="170.0" style="-fx-background-color: #ff6700;" text="Select City">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <HBox prefHeight="465.0" prefWidth="1050.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
